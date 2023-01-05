@@ -2,9 +2,10 @@
   "name": "virtual-tours",
   "version": "1.0.0",
   "description": "virtual reality untuk virtual tour",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "server": "nodemone app"
+    "server": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/alhasy-gayuh/virtual-tour-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
   }
 }
